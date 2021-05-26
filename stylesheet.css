@@ -1,0 +1,80 @@
+.message{
+	font-family: 'Noto Sans JP', sans-serif;
+	font-size: 40px;
+}
+
+.midashi{
+	font-family: 'Padauk', sans-serif;
+	font-size: 60px;
+}
+
+.v_name{
+	font-family: 'Padauk', sans-serif;
+	font-size: 25px;
+}
+
+
+/*ここから画像についてのCSS*/
+.play-touch{
+display: flex;
+flex-wrap:wrap;
+}
+.play-touch li {
+width: calc(100%/4);/*←画像を横に4つ並べる場合*/
+	padding:0 5px;/*←画像の左右に5pxの余白を入れる場合*/
+	box-sizing:border-box;
+	list-style-type:none;
+}
+.play-touch li img {
+max-width:100%; /*画像のはみだしを防ぐ*/
+	height: auto; /*画像の縦横比を維持 */
+}
+
+/*ここからPALY-2*/
+.play-share{
+display: flex;
+flex-wrap:wrap;
+}
+.play-share li {
+	width: calc(100%/2);/*←画像を横に4つ並べる場合*/
+	padding:0 5px;/*←画像の左右に5pxの余白を入れる場合*/
+	box-sizing:border-box;
+	list-style-type:none;
+}
+.play-share li img {
+	max-width:100%; /*画像のはみだしを防ぐ*/
+	height: auto; /*画像の縦横比を維持 */
+}
+
+
+/*ここからカラバリ*/
+.color_v{
+	display: flex;
+	flex-wrap:wrap;
+}
+.color_v li {
+	width: calc(100%/3);/*←画像を横に4つ並べる場合*/
+	padding:0 5px;/*←画像の左右に5pxの余白を入れる場合*/
+	box-sizing:border-box;
+	list-style-type:none;
+}
+.color_v li img {
+	max-width:100%; /*画像のはみだしを防ぐ*/
+	height: auto; /*画像の縦横比を維持 */
+}
+
+/*ここからディスプレイバリエーション*/
+.disp_v{
+	display: flex;
+	flex-wrap:wrap;
+}
+.disp_v li {
+	width: calc(100%/3);/*←画像を横に4つ並べる場合*/
+	padding:0 5px;/*←画像の左右に5pxの余白を入れる場合*/
+	box-sizing:border-box;
+	list-style-type:none;
+}
+.disp_v li img {
+	max-width:100%; /*画像のはみだしを防ぐ*/
+	height: auto; /*画像の縦横比を維持 */
+}
